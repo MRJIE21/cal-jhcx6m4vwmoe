@@ -14,13 +14,21 @@ DESCRIPTION:第三章习题 1-10 题
 LOCATION:家
 END:VEVENT
 BEGIN:VEVENT
+UID:demo-link-ok@dsh-local
+DTSTAMP:20260101T000000Z
+DTSTART:20261122T080000Z
+DTEND:20261122T090000Z
+SUMMARY:链路已打通（这条是新推的）
+DESCRIPTION:看到这条说明：电脑 → GitHub → 手机 三段全通
+END:VEVENT
+BEGIN:VEVENT
 UID:demo-today-2@dsh-local
 DTSTAMP:20260101T000000Z
 DTSTART:20261122T110000Z
 DTEND:20261122T130000Z
 SUMMARY:语文阅读两篇，数学卷子一套；英语单词 50 个
 DESCRIPTION:第一行：验证 ASCII 逗号\, 分号\; 和反斜杠\\ 的
- 转义\n第二行：验证换行转义
+  转义\n第二行：验证换行转义
 END:VEVENT
 BEGIN:VEVENT
 UID:demo-tomorrow-1@dsh-local
@@ -28,9 +36,9 @@ DTSTAMP:20260101T000000Z
 DTSTART:20261123T010000Z
 DTEND:20261123T030000Z
 SUMMARY:【超长中文标题】周末作业安排整理：语文阅读两
- 篇，数学卷子一套；英语单词背诵 50 个，物理实验报告
- 一份，化学错题本整理（含逗号，分号；以及反斜杠\\和
- 换行）
+  篇，数学卷子一套；英语单词背诵 50 个，物理实验报告
+  一份，化学错题本整理（含逗号，分号；以及反斜杠\\和
+  换行）
 DESCRIPTION:这条专门验折行：中文 3 字节，不能被劈开
 END:VEVENT
 BEGIN:VEVENT
